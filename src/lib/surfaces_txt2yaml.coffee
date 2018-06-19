@@ -49,12 +49,12 @@ class SurfacesTxt2Yaml.Parser
 			@index = index
 			result = null
 			if not in_scope
-				if @options.charset and result = line.match /^\s*charset,(.+)$/
+				if @options.charset and result = line.match /^\s*charset\s*,\s*(.+)$/
 					if parsed_data.charset?
-						@throw 'charset duplication found'
+						@warnthrow 'charset duplication found'
 					parsed_data.charset = result[1]
 				else if (
-					(@options.surface_definition == 'materia' and result = line.match /^(?:(descript)|(surface)(\d+(?:,surface\d+)*)|(sakura|kero\d+)\.(surface\.alias))\s*({)?\s*$/) or
+					(@options.surface_definition == 'materia' and result = line.match /^(?:(descript)|(surface)(\d+(?:,\s*surface\d+)*)|(sakura|kero\d+)\.(surface\.alias))\s*({)?\s*$/) or
 					(@options.surface_definition == 'ssp' and result = line.match /^\s*(?:(descript)|(surface(?:\.append)?)(!?(?:\d+-)?\d+(?:\s*,\s*(?:surface|!)?(?:\d+-)?\d+)*)|(sakura|kero|char\d+)\.(surface\.alias|cursor|tooltips))\s*({)?\s*$/) or
 					(@options.surface_definition == 'ssp-lazy' and result = line.match /^\s*(?:(descript)|(surface(?:\.append)?)(.+)|(sakura|kero|char\d+)\.(surface\.alias|cursor|tooltips))\s*({)?\s*$/)
 				)
@@ -263,7 +263,7 @@ class SurfacesTxt2Yaml.ScopeParser.descript extends SurfacesTxt2Yaml.ScopeParser
 				true
 		}
 		{
-			test: /^\s*(collision-sort|animation-sort),(.+)$/
+			test: /^\s*(collision-sort|animation-sort)\s*,\s*(.+)$/
 			match: (data, result) ->
 				data[result[1]] = result[2]
 				true
@@ -272,13 +272,13 @@ class SurfacesTxt2Yaml.ScopeParser.descript extends SurfacesTxt2Yaml.ScopeParser
 
 class SurfacesTxt2Yaml.ScopeParser.tooltips extends SurfacesTxt2Yaml.ScopeParser.Single
 	condition:
-		test: /^\s*([^,]+),(.+)$/
+		test: /^\s*([^,]+)\s*,\s*(.+)$/
 		match: (data, result) ->
 			data[result[1]] = result[2]
 
 class SurfacesTxt2Yaml.ScopeParser.cursor extends SurfacesTxt2Yaml.ScopeParser.Single
 	condition:
-		test: /^\s*(mouseup|mousedown)(\d+),([^,]+),(.+)$/
+		test: /^\s*(mouseup|mousedown)(\d+)\s*,\s*([^,]+)\s*,\s*(.+)$/
 		match: (data, result) ->
 			data[result[1]] = {region_id : result[3], file : result[4]}
 
@@ -295,12 +295,12 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 			@set_options options
 	conditions : [
 		{
-			test : /^\s*element(\d+),([^,]+),([^,]+),([-0-9]+),([-0-9]+)$/
+			test : /^\s*element(\d+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				@match_element data, result
 		}
 		{
-			test : /^\s*animation(\d+)\.interval,(.+)$/ # SERIKO/2
+			test : /^\s*animation(\d+)\.interval\s*,\s*(.+)$/ # SERIKO/2
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 0
 					@warnthrow 'not SERIKO/1.x definition : ' + result[0], @options.check_seriko
@@ -308,7 +308,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_interval data, result
 		}
 		{
-			test : /^\s*(\d+)interval,(.+)$/ # SERIKO/1
+			test : /^\s*(\d+)interval\s*,\s*(.+)$/ # SERIKO/1
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 1
 					@warnthrow 'not SERIKO/2.0 definition : ' + result[0], @options.check_seriko
@@ -316,7 +316,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_interval data, result
 		}
 		{
-			test : /^\s*animation(\d+)\.option,(.+)$/ # SERIKO/2
+			test : /^\s*animation(\d+)\.option\s*,\s*(.+)$/ # SERIKO/2
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 0
 					@warnthrow 'not SERIKO/1.x definition : ' + result[0], @options.check_seriko
@@ -324,7 +324,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_option data, result
 		}
 		{
-			test : /^\s*(\d+)option,(.+)$/ # SERIKO/1
+			test : /^\s*(\d+)option\s*,\s*(.+)$/ # SERIKO/1
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 1
 					@warnthrow 'not SERIKO/2.0 definition : ' + result[0], @options.check_seriko
@@ -332,7 +332,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_option data, result
 		}
 		{
-			test : /^\s*animation(\d+)\.pattern(\d+),([^,]+),(.+)$/ # SERIKO/2
+			test : /^\s*animation(\d+)\.pattern(\d+)\s*,\s*([^,]+)\s*,\s*(.+)$/ # SERIKO/2
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 0
 					@warnthrow 'not SERIKO/1.x definition : ' + result[0], @options.check_seriko
@@ -340,7 +340,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_pattern data, result
 		}
 		{
-			test : /^\s*(\d+)pattern(\d+),([^,]+),([^,]+),([^,]+)(?:,(.+))?$/ # SERIKO/1
+			test : /^\s*(\d+)pattern(\d+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)(?:,\s*(.+))?$/ # SERIKO/1
 			match : (data, result) ->
 				if @options.check_seriko and @seriko_version == 1
 					@warnthrow 'not SERIKO/2.0 definition : ' + result[0], @options.check_seriko
@@ -348,7 +348,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_animation_pattern_old data, result
 		}
 		{
-			test : /^\s*animation(\d+)\.collision(\d+),([-0-9]+),([-0-9]+),([-0-9]+),([-0-9]+),(.+)$/
+			test : /^\s*animation(\d+)\.collision(\d+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*(.+)$/
 			match : (data, result) ->
 				_is = (result.splice 1, 1)[0] - 0
 				id = 'animation'+_is
@@ -359,7 +359,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_collision data.animations[id], result
 		}
 		{
-			test : /^\s*animation(\d+)\.collisionex(\d+),([^,]+),(rect|ellipse),([-0-9]+),([-0-9]+),([-0-9]+),([-0-9]+)$/
+			test : /^\s*animation(\d+)\.collisionex(\d+)\s*,\s*([^,]+)\s*,\s*(rect|ellipse)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				_is = (result.splice 1, 1)[0] - 0
 				id = 'animation'+_is
@@ -370,7 +370,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_collisionex_4 data.animations[id], result
 		}
 		{
-			test : /^\s*animation(\d+)\.collisionex(\d+),([^,]+),(circle),([-0-9]+),([-0-9]+),([-0-9]+)$/
+			test : /^\s*animation(\d+)\.collisionex(\d+)\s*,\s*([^,]+)\s*,\s*(circle)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				_is = (result.splice 1, 1)[0] - 0
 				id = 'animation'+_is
@@ -381,7 +381,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_collisionex_3 data.animations[id], result
 		}
 		{
-			test : /^\s*animation(\d+)\.collisionex(\d+),([^,]+),polygon,(.+)$/
+			test : /^\s*animation(\d+)\.collisionex(\d+)\s*,\s*([^,]+)\s*,\s*polygon\s*,\s*(.+)$/
 			match : (data, result) ->
 				_is = (result.splice 1, 1)[0] - 0
 				id = 'animation'+_is
@@ -392,27 +392,27 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				@match_collisionex_n data.animations[id], result
 		}
 		{
-			test : /^\s*collision(\d+),([-0-9]+),([-0-9]+),([-0-9]+),([-0-9]+),(.+)$/
+			test : /^\s*collision(\d+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*(.+)$/
 			match : (data, result) ->
 				@match_collision data, result
 		}
 		{
-			test : /^\s*collisionex(\d+),([^,]+),(rect|ellipse),([-0-9]+),([-0-9]+),([-0-9]+),([-0-9]+)$/
+			test : /^\s*collisionex(\d+)\s*,\s*([^,]+)\s*,\s*(rect|ellipse)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				@match_collisionex_4 data, result
 		}
 		{
-			test : /^\s*collisionex(\d+),([^,]+),(circle),([-0-9]+),([-0-9]+),([-0-9]+)$/
+			test : /^\s*collisionex(\d+)\s*,\s*([^,]+)\s*,\s*(circle)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				@match_collisionex_3 data, result
 		}
 		{
-			test : /^\s*collisionex(\d+),([^,]+),polygon,(.+)$/
+			test : /^\s*collisionex(\d+)\s*,\s*([^,]+)\s*,\s*polygon\s*,\s*(.+)$/
 			match : (data, result) ->
 				@match_collisionex_n data, result
 		}
 		{
-			test : /^\s*point(?:\.(kinoko))?\.(center[xy]),([-0-9]+)$/
+			test : /^\s*point(?:\.(kinoko))?\.(center[xy])\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				[id, type, coordinate] = result[1 .. 3]
 				coordinate -= 0
@@ -427,7 +427,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				true
 		}
 		{
-			test : /^\s*point\.basepos\.([xy]),([-0-9]+)$/
+			test : /^\s*point\.basepos\.([xy])\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				[type, coordinate] = result[1 .. 2]
 				coordinate -= 0
@@ -439,7 +439,7 @@ class SurfacesTxt2Yaml.ScopeParser.surface extends SurfacesTxt2Yaml.ScopeParser.
 				true
 		}
 		{
-			test : /^\s*(?:(sakura|kero)\.)?balloon\.(offset[xy]),([-0-9]+)$/
+			test : /^\s*(?:(sakura|kero)\.)?balloon\.(offset[xy])\s*,\s*([-0-9]+)$/
 			match : (data, result) ->
 				[character, type, coordinate] = result[1 .. 3]
 				coordinate -= 0

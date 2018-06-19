@@ -1,0 +1,2265 @@
+surfaces:
+    surface11:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0001.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0133.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0113.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 115, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 114, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 123
+                top: 76
+                right: 212
+                bottom: 140
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 115
+                right: 188
+                bottom: 154
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 149
+                top: 192
+                right: 169
+                bottom: 205
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 185
+                top: 189
+                right: 207
+                bottom: 203
+        is: 11
+    surface12:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0001.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0113.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0121.png
+                x: 0
+                'y': 0
+            element3:
+                is: 3
+                type: overlay
+                file: surface0133.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 115, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 114, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 123
+                top: 76
+                right: 212
+                bottom: 140
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 115
+                right: 188
+                bottom: 154
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 149
+                top: 192
+                right: 169
+                bottom: 205
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 185
+                top: 189
+                right: 207
+                bottom: 203
+        is: 12
+    surface13:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0001.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0113.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0133.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 115, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 114, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 123
+                top: 76
+                right: 212
+                bottom: 140
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 115
+                right: 188
+                bottom: 154
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 149
+                top: 192
+                right: 169
+                bottom: 205
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 185
+                top: 189
+                right: 207
+                bottom: 203
+        is: 13
+    surface14:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0001.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0116.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0133.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 112, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 117, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 123
+                top: 76
+                right: 212
+                bottom: 140
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 115
+                right: 188
+                bottom: 154
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 149
+                top: 192
+                right: 169
+                bottom: 205
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 185
+                top: 189
+                right: 207
+                bottom: 203
+        is: 14
+    surface15:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0001.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0116.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0121.png
+                x: 0
+                'y': 0
+            element3:
+                is: 3
+                type: overlay
+                file: surface0133.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 112, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 117, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 123
+                top: 76
+                right: 212
+                bottom: 140
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 115
+                right: 188
+                bottom: 154
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 149
+                top: 192
+                right: 169
+                bottom: 205
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 185
+                top: 189
+                right: 207
+                bottom: 203
+        is: 15
+    surface20:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0002.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 231, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 232, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 233, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 234, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 235, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 234, wait: 100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: -1, wait: 80, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 20, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 60, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 255, wait: 300, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 254, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 253, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 252, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 251, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 252, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 253, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 254, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 256, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 257, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 258, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 259, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 260, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 261, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 262, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 261, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 260, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 259, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 258, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 257, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 256, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 500, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+            animation4:
+                is: 4
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 241, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 241, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 242, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 243, wait: 40, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 152
+                top: 51
+                right: 286
+                bottom: 126
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 191
+                top: 131
+                right: 252
+                bottom: 159
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 212
+                top: 253
+                right: 224
+                bottom: 284
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 205
+                top: 194
+                right: 227
+                bottom: 209
+        balloons:
+            sakura:
+                offsetx: 7
+        is: 20
+    surface21:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0002.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0221.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 231, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 232, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 233, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 234, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 235, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 234, wait: 100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: -1, wait: 80, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 20, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 60, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 255, wait: 300, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 254, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 253, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 252, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 251, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 252, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 253, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 254, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 256, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 257, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 258, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 259, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 260, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 261, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 262, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 261, wait: 50, x: 0, 'y': 0}
+                    - {type: overlay, surface: 260, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 259, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 258, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 257, wait: 70, x: 0, 'y': 0}
+                    - {type: overlay, surface: 256, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 255, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 500, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 212, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 211, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+            animation4:
+                is: 4
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 241, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 241, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 242, wait: 30, x: 0, 'y': 0}
+                    - {type: overlay, surface: 243, wait: 40, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 152
+                top: 51
+                right: 286
+                bottom: 126
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 191
+                top: 131
+                right: 252
+                bottom: 159
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 212
+                top: 253
+                right: 224
+                bottom: 284
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 205
+                top: 194
+                right: 227
+                bottom: 209
+        balloons:
+            sakura:
+                offsetx: 7
+        is: 21
+    surface251:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0251.png
+                x: 0
+                'y': 0
+        is: 251
+    surface252:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0252.png
+                x: 0
+                'y': 0
+        is: 252
+    surface253:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0253.png
+                x: 0
+                'y': 0
+        is: 253
+    surface254:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0254.png
+                x: 0
+                'y': 0
+        is: 254
+    surface255:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0255.png
+                x: 0
+                'y': 0
+        is: 255
+    surface256:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0256.png
+                x: 0
+                'y': 0
+        is: 256
+    surface257:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0257.png
+                x: 0
+                'y': 0
+        is: 257
+    surface258:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0258.png
+                x: 0
+                'y': 0
+        is: 258
+    surface259:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0259.png
+                x: 0
+                'y': 0
+        is: 259
+    surface260:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0260.png
+                x: 0
+                'y': 0
+        is: 260
+    surface261:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0261.png
+                x: 0
+                'y': 0
+        is: 261
+    surface262:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0250.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0262.png
+                x: 0
+                'y': 0
+        is: 262
+    surface30:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0003.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0331.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 312, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 311, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 148
+                top: 55
+                right: 198
+                bottom: 126
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 198
+                top: 88
+                right: 245
+                bottom: 133
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 230
+                top: 258
+                right: 239
+                bottom: 292
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 191
+                top: 179
+                right: 218
+                bottom: 195
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 234
+                top: 172
+                right: 247
+                bottom: 185
+        is: 30
+    surface31:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0003.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0313.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0331.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 312, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 314, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 148
+                top: 55
+                right: 198
+                bottom: 126
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 198
+                top: 88
+                right: 245
+                bottom: 133
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 230
+                top: 258
+                right: 239
+                bottom: 292
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 191
+                top: 179
+                right: 218
+                bottom: 195
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 234
+                top: 172
+                right: 247
+                bottom: 185
+        is: 31
+    surface50:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0005.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 533, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 150, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 130, x: 0, 'y': 0}
+                    - {type: overlay, surface: 533, wait: 140, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 170, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 200, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 551, wait: 50, x: 90, 'y': 190}
+                    - {type: overlay, surface: 552, wait: 100, x: 90, 'y': 190}
+                    - {type: overlay, surface: 553, wait: 110, x: 90, 'y': 190}
+                    - {type: overlay, surface: 554, wait: 120, x: 90, 'y': 190}
+                    - {type: overlay, surface: -1, wait: 600, x: 90, 'y': 190}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 111
+                top: 33
+                right: 256
+                bottom: 121
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 124
+                right: 224
+                bottom: 169
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 153
+                top: 200
+                right: 174
+                bottom: 215
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 199
+                top: 202
+                right: 221
+                bottom: 217
+        is: 50
+    surface51:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0005.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0521.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 533, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 150, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 130, x: 0, 'y': 0}
+                    - {type: overlay, surface: 533, wait: 140, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 170, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 200, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 551, wait: 50, x: 54, 'y': 158}
+                    - {type: overlay, surface: 552, wait: 100, x: 54, 'y': 158}
+                    - {type: overlay, surface: 553, wait: 110, x: 54, 'y': 158}
+                    - {type: overlay, surface: 554, wait: 120, x: 54, 'y': 158}
+                    - {type: overlay, surface: -1, wait: 600, x: 54, 'y': 158}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 111
+                top: 33
+                right: 256
+                bottom: 121
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 124
+                right: 224
+                bottom: 169
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 153
+                top: 200
+                right: 174
+                bottom: 215
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 199
+                top: 202
+                right: 221
+                bottom: 217
+        is: 51
+    surface52:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0005.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0522.png
+                x: 0
+                'y': 0
+        animations:
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 554, wait: 200, x: 75, 'y': 113}
+                    - {type: overlay, surface: 554, wait: 100, x: 83, 'y': 143}
+                    - {type: overlay, surface: 554, wait: 100, x: 65, 'y': 123}
+                    - {type: overlay, surface: 554, wait: 200, x: 73, 'y': 153}
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 533, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 150, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 130, x: 0, 'y': 0}
+                    - {type: overlay, surface: 533, wait: 140, x: 0, 'y': 0}
+                    - {type: overlay, surface: 532, wait: 170, x: 0, 'y': 0}
+                    - {type: overlay, surface: 531, wait: 200, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 111
+                top: 33
+                right: 256
+                bottom: 121
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 124
+                right: 224
+                bottom: 169
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 153
+                top: 200
+                right: 174
+                bottom: 215
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 199
+                top: 202
+                right: 221
+                bottom: 217
+        is: 52
+    surface6:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0008.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0813.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0832.png
+                x: 0
+                'y': 0
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 127
+                top: 23
+                right: 247
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 152
+                top: 84
+                right: 224
+                bottom: 130
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 154
+                top: 170
+                right: 177
+                bottom: 186
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 205
+                top: 170
+                right: 227
+                bottom: 187
+        is: 6
+    surface70:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0007.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 731, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 90, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 1100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 751, wait: 0, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 752, wait: 0, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 753, wait: 0, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 113
+                top: 24
+                right: 246
+                bottom: 114
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 117
+                right: 220
+                bottom: 162
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 151
+                top: 256
+                right: 218
+                bottom: 295
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 148
+                top: 196
+                right: 170
+                bottom: 213
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 196
+                top: 196
+                right: 218
+                bottom: 211
+        is: 70
+    surface71:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0007.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0721.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 731, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 90, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 1100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 751, wait: 0, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 752, wait: 0, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 753, wait: 0, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 113
+                top: 24
+                right: 246
+                bottom: 114
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 117
+                right: 220
+                bottom: 162
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 151
+                top: 256
+                right: 218
+                bottom: 295
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 148
+                top: 196
+                right: 170
+                bottom: 213
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 196
+                top: 196
+                right: 218
+                bottom: 211
+        is: 71
+    surface72:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0007.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0741.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 731, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 90, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 1100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 751, wait: 0, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 752, wait: 0, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 753, wait: 0, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 113
+                top: 24
+                right: 246
+                bottom: 114
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 117
+                right: 220
+                bottom: 162
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 151
+                top: 256
+                right: 218
+                bottom: 295
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 148
+                top: 196
+                right: 170
+                bottom: 213
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 196
+                top: 196
+                right: 218
+                bottom: 211
+        is: 72
+    surface73:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0007.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0741.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0721.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 731, wait: 0, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 20, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 60, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 80, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 90, x: 0, 'y': 0}
+                    - {type: overlay, surface: 733, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 732, wait: 120, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 100, x: 0, 'y': 0}
+                    - {type: overlay, surface: 731, wait: 1100, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 751, wait: 0, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 36, 'y': 81}
+                    - {type: overlay, surface: 751, wait: 60, x: 45, 'y': 86}
+                    - {type: overlay, surface: 751, wait: 60, x: 53, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation2:
+                is: 2
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 752, wait: 0, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 0}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 9}
+                    - {type: overlay, surface: 752, wait: 60, x: 171, 'y': 18}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+            animation3:
+                is: 3
+                interval: runonce
+                patterns:
+                    - {type: overlay, surface: 753, wait: 0, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 269, 'y': 82}
+                    - {type: overlay, surface: 753, wait: 60, x: 260, 'y': 86}
+                    - {type: overlay, surface: 753, wait: 60, x: 252, 'y': 90}
+                    - {type: overlay, surface: -1, wait: 180, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 113
+                top: 24
+                right: 246
+                bottom: 114
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 146
+                top: 117
+                right: 220
+                bottom: 162
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 151
+                top: 256
+                right: 218
+                bottom: 295
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 148
+                top: 196
+                right: 170
+                bottom: 213
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 196
+                top: 196
+                right: 218
+                bottom: 211
+        is: 73
+    surface80:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0008.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0831.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 812, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 811, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 127
+                top: 23
+                right: 247
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 152
+                top: 84
+                right: 224
+                bottom: 130
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 154
+                top: 170
+                right: 177
+                bottom: 186
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 205
+                top: 170
+                right: 227
+                bottom: 187
+        is: 80
+    surface81:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0008.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0821.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0831.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,3'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 812, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 811, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 127
+                top: 23
+                right: 247
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 152
+                top: 84
+                right: 224
+                bottom: 130
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 154
+                top: 170
+                right: 177
+                bottom: 186
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 205
+                top: 170
+                right: 227
+                bottom: 187
+        is: 81
+    surface82:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0008.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0814.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0831.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,3'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 816, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 815, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 127
+                top: 23
+                right: 247
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 152
+                top: 84
+                right: 224
+                bottom: 130
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 154
+                top: 170
+                right: 177
+                bottom: 186
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 205
+                top: 170
+                right: 227
+                bottom: 187
+        is: 82
+    surface90:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0009.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0932.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 912, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 911, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 109
+                top: 24
+                right: 225
+                bottom: 98
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 103
+                right: 228
+                bottom: 143
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 171
+                top: 256
+                right: 223
+                bottom: 290
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 151
+                top: 188
+                right: 163
+                bottom: 201
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 184
+                top: 187
+                right: 207
+                bottom: 205
+        is: 90
+    surface91:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0009.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0921.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0932.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 912, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 911, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 109
+                top: 24
+                right: 225
+                bottom: 98
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 103
+                right: 228
+                bottom: 143
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 171
+                top: 256
+                right: 223
+                bottom: 290
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 151
+                top: 188
+                right: 163
+                bottom: 201
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 184
+                top: 187
+                right: 207
+                bottom: 205
+        is: 91
+    surface92:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface0009.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface0922.png
+                x: 0
+                'y': 0
+            element2:
+                is: 2
+                type: overlay
+                file: surface0932.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 912, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 911, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 109
+                top: 24
+                right: 225
+                bottom: 98
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 151
+                top: 103
+                right: 228
+                bottom: 143
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 171
+                top: 256
+                right: 223
+                bottom: 290
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 151
+                top: 188
+                right: 163
+                bottom: 201
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 184
+                top: 187
+                right: 207
+                bottom: 205
+        is: 92
+    surface0:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface1000.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface1032.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,3'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1012, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1011, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 100
+                top: 6
+                right: 264
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 148
+                top: 91
+                right: 227
+                bottom: 127
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 158
+                top: 252
+                right: 219
+                bottom: 291
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 150
+                top: 169
+                right: 169
+                bottom: 184
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 195
+                top: 168
+                right: 216
+                bottom: 185
+        is: 0
+    surface1001:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface1000.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface1032.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,3'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1012, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1011, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 100
+                top: 6
+                right: 264
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 148
+                top: 91
+                right: 227
+                bottom: 127
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 158
+                top: 252
+                right: 219
+                bottom: 291
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 150
+                top: 169
+                right: 169
+                bottom: 184
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 195
+                top: 168
+                right: 216
+                bottom: 185
+        is: 1001
+    surface1002:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface1100.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface1033.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1112, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1111, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+            animation1:
+                is: 1
+                interval: always
+                patterns:
+                    - {type: overlayfast, surface: -1, wait: 1500, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1151, wait: 110, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1152, wait: 110, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1151, wait: 110, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: -1, wait: 110, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1151, wait: 130, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1152, wait: 140, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1151, wait: 150, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: -1, wait: 130, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: -1, wait: 500, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 124
+                top: 10
+                right: 204
+                bottom: 95
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 148
+                top: 91
+                right: 227
+                bottom: 127
+            collision2:
+                is: 2
+                type: rect
+                name: Cheek1
+                left: 150
+                top: 169
+                right: 169
+                bottom: 184
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek2
+                left: 195
+                top: 168
+                right: 216
+                bottom: 185
+        is: 1002
+    surface1003:
+        elements:
+            element0:
+                is: 0
+                type: overlay
+                file: surface1200.png
+                x: 0
+                'y': 0
+            element1:
+                is: 1
+                type: overlay
+                file: surface1032.png
+                x: 0
+                'y': 0
+        animations:
+            animation0:
+                is: 0
+                interval: 'random,2'
+                patterns:
+                    - {type: overlay, surface: -1, wait: 100, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1012, wait: 30, x: 0, 'y': 0}
+                    - {type: overlayfast, surface: 1011, wait: 40, x: 0, 'y': 0}
+                    - {type: overlay, surface: -1, wait: 30, x: 0, 'y': 0}
+        regions:
+            collision0:
+                is: 0
+                type: rect
+                name: Ribbon
+                left: 100
+                top: 6
+                right: 264
+                bottom: 82
+            collision1:
+                is: 1
+                type: rect
+                name: Head
+                left: 148
+                top: 91
+                right: 227
+                bottom: 127
+            collision2:
+                is: 2
+                type: rect
+                name: Heart
+                left: 158
+                top: 252
+                right: 219
+                bottom: 291
+            collision3:
+                is: 3
+                type: rect
+                name: Cheek1
+                left: 150
+                top: 169
+                right: 169
+                bottom: 184
+            collision4:
+                is: 4
+                type: rect
+                name: Cheek2
+                left: 195
+                top: 168
+                right: 216
+                bottom: 185
+        is: 1003
+aliases:
+    sakura:
+        '1':
+            - 11
+            - 12
+        '2':
+            - 20
+            - 21
+        '3':
+            - 30
+            - 31
+        '5':
+            - 50
+            - 51
+            - 52
+        '7':
+            - 70
+            - 71
+            - 72
+            - 73
+        '8':
+            - 80
+            - 81
+            - 82
+        '9':
+            - 90
+            - 91
+            - 92
