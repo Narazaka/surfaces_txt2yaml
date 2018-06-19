@@ -4,6 +4,7 @@
   "description": "surfaces.txt -> surfaces.yaml",
   "homepage": "https://github.com/Narazaka/surfaces_txt2yaml",
   "main": "index.js",
+  "types": "surfaces_txt2yaml.d.ts",
   "bin": "bin/surfaces_txt2yaml.js",
   "scripts": {
     "prepare": "npm run dist",
@@ -19,6 +20,9 @@
     "name": "narazaka",
     "url": "https://narazaka.net/"
   },
+  "contributors": [
+    "legokichi"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
