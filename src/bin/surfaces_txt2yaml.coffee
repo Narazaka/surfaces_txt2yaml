@@ -1,4 +1,4 @@
-### (C) 2014 Narazaka : Licensed under The MIT License - http://narazaka.net/license/MIT?2014 ###
+### (C) 2018 Narazaka : Licensed under The MIT License - http://narazaka.net/license/MIT?2018 ###
 fs = require 'fs'
 argv = require 'argv'
 SurfacesTxt2Yaml = require '../lib/surfaces_txt2yaml'

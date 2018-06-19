@@ -2,23 +2,30 @@
   "name": "surfaces_txt2yaml",
   "version": "2.1.0",
   "description": "surfaces.txt -> surfaces.yaml",
-  "homepage": "",
+  "homepage": "https://github.com/Narazaka/surfaces_txt2yaml",
   "main": "index.js",
   "bin": "bin/surfaces_txt2yaml.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run dist",
+    "dist": "npm run dist:lib && npm run dist:bin",
+    "dist:bin": "coffee -o bin -c src/bin/surfaces_txt2yaml.coffee && node -e \"fs=require('fs');c='#!/usr/bin/env node\\n'+fs.readFileSync('./bin/surfaces_txt2yaml.js');fs.writeFileSync('./bin/surfaces_txt2yaml.js', c)\"",
+    "dist:lib": "shx cat src/lib/util.coffee src/lib/surfaces_txt2yaml.coffee | coffee -cb --stdio > lib/surfaces_txt2yaml.js"
   },
   "dependencies": {
-    "argv": ">= 0.0.2",
-    "js-yaml": ">= 3.0.2"
+    "argv": "^0.0.2",
+    "js-yaml": "^3.0.2"
   },
   "author": {
     "name": "narazaka",
-    "url": "http://narazaka.net/"
+    "url": "https://narazaka.net/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Narazaka/surfaces_txt2yaml.git"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.7",
+    "shx": "^0.3.0"
   }
 }
