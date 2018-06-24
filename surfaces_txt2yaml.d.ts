@@ -26,7 +26,7 @@ declare module SurfacesTxt2Yaml {
 
   export interface SurfaceDefinition {
     is: number;
-    characters: { sakura: string; };
+    characters: { [characterName: string]: string; };
     points: {
       centerx: number;
       centery: number;
@@ -34,7 +34,8 @@ declare module SurfacesTxt2Yaml {
       basepos: { x: number; y: number; };
     };
     balloons: {
-      sakura: { offsetx: number; offsety: number; };
+      [characterName: string]: { offsetx: number; offsety: number; };
+    } & {
       offsetx: number;
       offsety: number;
     };
