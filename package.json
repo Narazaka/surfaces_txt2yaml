@@ -1,6 +1,6 @@
 {
   "name": "surfaces_txt2yaml",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "surfaces.txt -> surfaces.yaml",
   "homepage": "https://github.com/Narazaka/surfaces_txt2yaml",
   "main": "index.js",
